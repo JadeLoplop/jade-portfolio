@@ -2,16 +2,23 @@
   "name": "vite",
   "version": "0.1.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.0.5"
+    "@headlessui/vue": "^1.7.7",
+    "@heroicons/vue": "^2.0.13",
+    "alpinejs": "^3.10.5",
+    "vue": "^3.0.5",
+    "vue-router": "^4.1.6"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.4",
     "@vue/compiler-sfc": "^3.0.5",
-    "vite": "^2.4.0"
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "vite": "^2.9.15"
   }
 }
