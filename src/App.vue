@@ -1,17 +1,17 @@
 <template>
-<!-- <div class="bg-gray-50 text-white antialiased dark:text-black"> -->
-  <Navigator/>
-<!-- </div> -->
+  <div class="mx-auto max-w-3xl px-2 sm:px-6 lg:px-8">
+    
+    <Navigator />
+    <router-view></router-view>
 
-<router-view></router-view>
-  
+  </div>
 </template>
 
 <script setup>
-import Navigator from './components/Navigator.vue'
+  import Navigator from './components/Navigator.vue'
 
-// This starter template is using Vue 3 experimental <script setup> SFCs
-// Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
+  // This starter template is using Vue 3 experimental <script setup> SFCs
+  // Check out https://github.com/vuejs/rfcs/blob/script-setup-2/active-rfcs/0000-script-setup.md
 </script>
 
 <style>

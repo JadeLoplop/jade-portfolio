@@ -1,6 +1,6 @@
 <template>
-  <Disclosure as="nav" class="bg-gray-800" v-slot="{ open }">
-    <div class="mx-auto max-w-2xl px-2 sm:px-6 lg:px-8">
+  <Disclosure as="nav" v-slot="{ open }">
+    
       <div class="relative flex h-16 items-center justify-between">
         <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
           <!-- Mobile menu button-->
@@ -16,7 +16,7 @@
             <img class="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
             <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
           </div> -->
-          <div class="hidden sm:ml-6 sm:block">
+          <div class="hidden sm:block">
             <div class="flex space-x-4">
               <router-link v-for="item in navigation" :key="item.path" :to="item.path" :class="[item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'px-3 py-2 rounded-md text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">
                 {{item.name}}
@@ -32,7 +32,6 @@
           </button>
         </div>
       </div>
-    </div>
 
     <DisclosurePanel class="sm:hidden">
       <div class="space-y-1 px-2 pt-2 pb-3">
@@ -53,5 +52,4 @@ import { Bars3Icon, SunIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const router = useRouter();
 const navigation = router.options.routes;
-console.log(router.options.routes);
 </script>
