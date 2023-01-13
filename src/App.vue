@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto max-w-3xl px-2 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-6xl px-2 sm:px-6 lg:px-8">
     
     <Navigator />
     <router-view></router-view>
