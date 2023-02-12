@@ -1,9 +1,10 @@
 <template>
-    <div>
+    <div class="pb-5">
         <h1 class="text-2xl font-bold text-black dark:text-white md:text-6xl">Featured Project</h1>
 
         <div class="py-20 ">
-            <section class="flex md:h-80 w-full flex-col gap-6 md:flex-row ">
+            Coming Soon ...
+            <section class="flex md:h-80 w-full flex-col gap-6 md:flex-row hidden">
                 <div class="border-8 border-orange-500 w-full rounded-xl bg-gradient-to-r p-1 md:w-1/3">
                     <div class="flex h-full flex-col justify-between rounded-lg  p-4">
                         <div class="flex flex-col justify-between md:flex-row h-full">

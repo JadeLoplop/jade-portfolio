@@ -1,5 +1,5 @@
 <template>
-  Project Page
+  Coming Soon ...
 </template>
 
 <script>
