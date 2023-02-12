@@ -4,7 +4,7 @@
 
         <div class="py-20 ">
             <section class="flex md:h-80 w-full flex-col gap-6 md:flex-row ">
-                <div class="border border-8 border-orange-500 w-full rounded-xl bg-gradient-to-r p-1 md:w-1/3">
+                <div class="border-8 border-orange-500 w-full rounded-xl bg-gradient-to-r p-1 md:w-1/3">
                     <div class="flex h-full flex-col justify-between rounded-lg  p-4">
                         <div class="flex flex-col justify-between md:flex-row h-full">
                             <h4 class="mb-6 w-full text-lg font-medium text-gray-900 dark:text-gray-100 md:text-3xl">
@@ -15,7 +15,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="border border-8 border-orange-500 w-full rounded-xl bg-gradient-to-r p-1 md:w-1/3">
+                <div class="border-8 border-orange-500 w-full rounded-xl bg-gradient-to-r p-1 md:w-1/3">
                     <div class="flex h-full flex-col justify-between rounded-lg  p-4">
                         <div class="flex flex-col justify-between md:flex-row h-full">
                             <h4 class="mb-6 w-full text-lg font-medium text-gray-900 dark:text-gray-100 md:text-3xl">
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="border border-8 border-orange-500 w-full rounded-xl bg-gradient-to-r p-1 md:w-1/3">
+                <div class="border-8 border-orange-500 w-full rounded-xl bg-gradient-to-r p-1 md:w-1/3">
                     <div class="flex h-full flex-col justify-between rounded-lg  p-4">
                         <div class="flex flex-col justify-between md:flex-row h-full">
                             <h4 class="mb-6 w-full text-lg font-medium text-gray-900 dark:text-gray-100 md:text-3xl">
