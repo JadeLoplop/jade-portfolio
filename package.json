@@ -10,6 +10,7 @@
     "@headlessui/vue": "^1.7.7",
     "@heroicons/vue": "^2.0.13",
     "alpinejs": "^3.10.5",
+    "firebase": "^9.17.1",
     "vue": "^3.0.5",
     "vue-router": "^4.1.6"
   },

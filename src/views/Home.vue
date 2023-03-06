@@ -30,7 +30,7 @@
 <script setup>
   import { ArrowRightCircleIcon } from "@heroicons/vue/24/outline"
   import FeaturedPost from "../components/FeaturedPost.vue"
-import GuessBook from "../components/GuessBook.vue";
+  import GuessBook from "../components/GuessBook.vue";
 </script>
 
 <style>
