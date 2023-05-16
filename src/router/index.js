@@ -22,14 +22,14 @@ const routes = [
         isMenu:   true,
         component: () => import('../views/Projects.vue'),
     },
-    {
-        path: '/projects/:id/:name',
-        name: 'Projects Details',
-        current: false,
-        isMenu:   false,
-        props: true,
-        component: () => import('../views/ProjectDetails.vue'),
-    },
+    // {
+    //     path: '/projects/:id/:name',
+    //     name: 'Projects Details',
+    //     current: false,
+    //     isMenu:   false,
+    //     props: true,
+    //     component: () => import('../views/ProjectDetails.vue'),
+    // },
     {
         path: '/contact',
         name: 'Contact',

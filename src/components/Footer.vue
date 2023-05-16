@@ -15,14 +15,14 @@
                     </a>
                 </div>
             </div>
-            <div class="flex flex-col items-start space-y-4">
+            <!-- <div class="flex flex-col items-start space-y-4">
                 <div class="flex flex-col items-start space-y-10">
                     <router-link v-for="item in entertainment" :key="item.path" :to="item.path"
                         class="text-gray-500 transition-colors md:text-xl hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-200/80">
                         {{ item.name }}
                     </router-link>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
