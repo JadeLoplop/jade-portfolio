@@ -24,7 +24,7 @@
   </div>
 
   <FeaturedPost/>
-  <GuessBook/>
+  <!-- <GuessBook/> -->
 </template>
 
 <script setup>

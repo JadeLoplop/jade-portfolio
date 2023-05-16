@@ -11,6 +11,8 @@
     "@heroicons/vue": "^2.0.13",
     "alpinejs": "^3.10.5",
     "firebase": "^9.17.1",
+    "json-server": "^0.17.2",
+    "pinia": "^2.0.35",
     "vue": "^3.0.5",
     "vue-router": "^4.1.6"
   },

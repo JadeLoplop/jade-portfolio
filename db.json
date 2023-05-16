@@ -1,0 +1,22 @@
+{
+    "projectItems": [
+        {
+            "id": 1,
+            "title": "Hisense Official Website",
+            "slug": "/hisense-official-website",
+            "imageSrc": "../../assets/hisense/1.png"
+        },
+        {
+            "id": 2,
+            "title": "Kolours Official Website",
+            "slug": "/kolours-official-website",
+            "imageSrc": "../../assets/kolours/1.png"
+        },
+        {
+            "id": 3,
+            "title": "Hygienix Official Website",
+            "slug": "/hygienix-official-website",
+            "imageSrc": "../../assets/hygienix/1.png"
+        }
+      ]
+}

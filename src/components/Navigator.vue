@@ -73,5 +73,7 @@
   } from '@heroicons/vue/24/outline'
 
   const router = useRouter();
-  const navigation = router.options.routes;
+  const navigation = router.options.routes.filter(function(i) {
+                      return i.isMenu
+                    });
 </script>
