@@ -12,7 +12,7 @@
         I am a Full Stack Software Engineer specialized in backend base in South Cotabato, Philippines.
         <router-link to="/about-me" class="hover:underline hover:decoration-orange-500 hover:decoration-4">
           <span class="flex">More
-            <ArrowRightCircleIcon class="md:h-8 md:w-18 sm:w-18 sm:h-8 ml-2" aria-hidden="true" /></span>
+            <ArrowRightCircleIcon class="h-8 w-18 md:h-8 md:w-18 sm:h-8 sm:w-18  ml-2" aria-hidden="true" /></span>
         </router-link>
       </p>
 

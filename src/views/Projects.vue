@@ -7,7 +7,7 @@
     <div v-else="showTitle != true" class="text-2xl font-bold text-black dark:text-white md:text-4xl">Recent Project</div>
    
     <div class="py-20 ">
-      <section class="w-full grid grid-cols-3 gap-4">
+      <section class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <ProjectItem v-for="(item, index) in projectItems.projects" :projectDetails="item" />
       </section>
     </div>

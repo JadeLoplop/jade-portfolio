@@ -1,6 +1,6 @@
 <template>
     <a :href="projectDetails.client_info.website" target="_blank">
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  h-full">
             <!-- <router-link :to="slugPath" href="#"> -->
                 <img class="rounded-t-lg md:h-48 md:w-full" :src="projectDetails.imageSrc" alt="" />
                 
