@@ -190,7 +190,7 @@
           <div class="flex flex-col space-y-6 lg:space-y-12">
             <!-- Heading -->
             <div class="text-3xl lg:text-4xl font-semibold text-gray-800 dark:text-gray-200 text-center">
-              Let's Connect !
+              Let's Connect!
             </div>
 
             <!-- Email Section -->
@@ -202,13 +202,20 @@
             </div>
 
             <!-- Call-to-Action Button -->
-            <div class="flex justify-center">
+            <div class="flex justify-center space-x-4">
               <a href="mailto:bryanjadeloplop@gmail.com"
                 class="bg-light-accent dark:bg-light-accent text-white font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
                 Send Me an Email
               </a>
+
+              <!-- Download CV Button -->
+              <a href="/pdf/Bryan_Jade_CV.pdf" download
+                class="bg-gray-800 dark:bg-gray-300 text-white dark:text-gray-800 font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                Download My CV
+              </a>
             </div>
           </div>
+
 
 
 
