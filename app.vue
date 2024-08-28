@@ -28,6 +28,8 @@
               <!-- Tech Stack Icons -->
               <i class="text-light-text dark:text-dark-text fab fa-php fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-laravel fa-2x"></i>
+              <i class="text-light-text dark:text-dark-text fab fa-aws fa-2x"></i>
+              <i class="text-light-text dark:text-dark-text fas fa-database fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-html5 fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-css3 fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-sass fa-2x"></i>
@@ -36,7 +38,10 @@
               <i class="text-light-text dark:text-dark-text fab fa-vuejs fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-angular fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-react fa-2x"></i>
+              <i class="text-light-text dark:text-dark-text fa-brands fa-flutter fa-2x"></i>
               <span class="text-light-text dark:text-dark-text text-2xl">Tailwind</span>
+              <span class="text-light-text dark:text-dark-text text-2xl">GIT</span>
+              <span class="text-light-text dark:text-dark-text text-2xl">Firebase</span>
             </div>
           </div>
         </div>
