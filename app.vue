@@ -4,15 +4,15 @@
     <div class="flex flex-col lg:flex-row min-h-screen">
       <!-- Left Sidebar -->
       <div
-        class="lg:basis-1/3 bg-light-sidebar dark:bg-dark-sidebar px-8 py-16 lg:px-16 lg:py-32 flex flex-col sticky top-0 h-screen">
+        class="lg:basis-1/3 bg-light-sidebar dark:bg-dark-sidebar px-8 py-16 lg:px-16 lg:py-32 flex flex-col lg:sticky top-0 lg:h-screen h-auto">
         <div class="bg-light-sidebar dark:bg-dark-sidebar flex flex-col h-full space-y-10">
           <div class="flex justify-center lg:justify-end">
-            <div class="rounded-full overflow-hidden w-32 h-32 lg:w-48 lg:h-48">
+            <div class="rounded-full overflow-hidden w-24 h-24 sm:w-32 sm:h-32 lg:w-48 lg:h-48">
               <img src="~/assets/img/profile-pic-lightBG.png" alt="Example Image" class="w-full h-full object-cover">
             </div>
           </div>
-          <div class="flex flex-col text-lg lg:text-xl leading-loose text-center lg:text-right ">
-            <div class="flex flex-row justify-end">
+          <div class="flex flex-col text-base sm:text-lg lg:text-xl leading-loose text-center lg:text-right">
+            <div class="flex flex-row justify-center lg:justify-end">
               <span class="text-light-text dark:text-dark-text">I am&nbsp;</span>
               <span class="font-bold text-light-accent">Jade</span>
               <span class="text-light-text dark:text-dark-text">, a web developer</span>
@@ -22,9 +22,10 @@
             <div class="text-light-text dark:text-dark-text">digital solutions.</div>
           </div>
 
-          <div class="text-lg lg:text-xl leading-loose text-center lg:text-right space-y-4">
+
+          <div class="text-base sm:text-lg lg:text-xl leading-loose text-center lg:text-right space-y-4">
             <div class="font-bold text-light-accent">Tech Stack</div>
-            <div class="flex flex-wrap justify-center items-center lg:justify-end space-x-4 space-y-2">
+            <div class="flex flex-wrap justify-center items-center lg:justify-end gap-2">
               <!-- Tech Stack Icons -->
               <i class="text-light-text dark:text-dark-text fab fa-php fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-laravel fa-2x"></i>
@@ -33,35 +34,40 @@
               <i class="text-light-text dark:text-dark-text fab fa-html5 fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-css3 fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-sass fa-2x"></i>
-              <i class="text-light-text dark:text-dark-text fab fa-css3 fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-bootstrap fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-vuejs fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-angular fa-2x"></i>
               <i class="text-light-text dark:text-dark-text fab fa-react fa-2x"></i>
-              <i class="text-light-text dark:text-dark-text fa-brands fa-flutter fa-2x"></i>
-              <span class="text-light-text dark:text-dark-text text-2xl">Tailwind</span>
-              <span class="text-light-text dark:text-dark-text text-2xl">GIT</span>
-              <span class="text-light-text dark:text-dark-text text-2xl">Firebase</span>
+              <i class="text-light-text dark:text-dark-text fab fa-flutter fa-2x"></i>
+              <span class="text-light-text dark:text-dark-text text-xl">Tailwind</span>
+              <span class="text-light-text dark:text-dark-text text-xl">GIT</span>
+              <span class="text-light-text dark:text-dark-text text-xl">Firebase</span>
             </div>
           </div>
-        </div>
-        <div class="h-24 lg:h-48 mt-5 flex justify-end">
-          <div class="flex items-center justify-center h-full space-x-6">
 
+          <div class="flex justify-center lg:justify-end">
+            <!-- Download CV Button -->
+            <a href="/pdf/Bryan_Jade_CV.pdf" download
+              class="bg-gray-800 dark:bg-gray-300 text-white dark:text-gray-800 font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+              Download My CV
+            </a>
+          </div>
+        </div>
+        <div class="h-24 sm:h-32 lg:h-48 mt-5 flex flex justify-center lg:justify-end">
+
+          <div class="flex items-center justify-center h-full space-x-4 sm:space-x-6">
             <a href="https://github.com/JadeLoplop" target="_blank"
               class="text-light-text dark:text-light-accent hover:text-gray-700 dark:hover:text-gray-400">
               <i class="fab fa-github fa-2x"></i>
             </a>
-
             <a href="https://www.linkedin.com/in/bryan-jade-loplop-8721a21a0" target="_blank"
               class="text-light-text dark:text-light-accent hover:text-gray-700 dark:hover:text-gray-400">
               <i class="fab fa-linkedin fa-2x"></i>
             </a>
-
           </div>
         </div>
-
       </div>
+
 
       <!-- Main Content -->
       <div
@@ -72,7 +78,8 @@
             <component :is="icon" class="w-6 h-6 text-gray-900 dark:text-gray-200 transition-opacity duration-500" />
           </Transition>
         </button>
-        <div class="flex flex-col space-y-10 lg:space-y-20 max-w-3xl text-light-text dark:text-dark-text">
+        <div
+          class="flex flex-col justify-start sm:justify-center space-y-10 lg:space-y-20 lg:max-w-3xl text-light-text dark:text-dark-text">
           <!-- About Me Section -->
           <div class="flex flex-col space-y-4 lg:space-y-10">
             <div class="text-3xl lg:text-4xl font-bold">About Me</div>
@@ -113,21 +120,23 @@
           <div class="flex flex-col space-y-4 lg:space-y-10">
             <div class="text-3xl lg:text-4xl">Recent Work</div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div v-for="(work, index) in recentWorks" :key="index"
-                class="max-w-sm rounded overflow-hidden bg-light-sidebar dark:bg-dark-sidebar cursor-pointer"
+                class="rounded overflow-hidden bg-light-sidebar dark:bg-dark-sidebar cursor-pointer"
                 @click="openWorkModal(work)">
                 <img :src="work.imageUrl" alt="Card Image" class="w-full h-48 object-cover">
                 <div class="p-4">
-                  <div class="font-bold text-xl mb-2 text-light-accent dark:text-light-accent">{{ work.title }}</div>
-                  <p class="text-light-text dark:text-dark-text text-base">{{ work.description }}</p>
+                  <div class="font-bold text-lg sm:text-xl mb-2 text-light-accent dark:text-light-accent">{{ work.title
+                    }}</div>
+                  <p class="text-light-text dark:text-dark-text text-sm sm:text-base">{{ work.description }}</p>
                 </div>
               </div>
             </div>
 
 
 
-            <div class="flex justify-start mt-6">
+
+            <div class="flex justify-center lg:justify-start mt-6">
               <a href="https://github.com/JadeLoplop" target="_blank"
                 class="bg-light-accent dark:bg-light-accent hover:bg-dark-sidebar text-white font-bold py-3 px-6 rounded transition-colors duration-300">
                 Check My GitHub
@@ -144,28 +153,28 @@
               Projects I've Contributed To
             </h2>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div v-for="(work, index) in visibleWorks" :key="index"
-                class="max-w-sm rounded-lg overflow-hidden bg-light-sidebar dark:bg-dark-sidebar shadow-lg cursor-pointer"
+                class="rounded-lg overflow-hidden bg-light-sidebar dark:bg-dark-sidebar shadow-lg cursor-pointer"
                 @click="openWorkModal(work)">
                 <img :src="work.imageUrl" alt="Card Image" class="w-full h-48 object-cover">
                 <div class="p-4">
-                  <h3 class="font-bold text-xl mb-2 text-light-accent dark:text-light-accent">
+                  <h3 class="font-bold text-lg sm:text-xl mb-2 text-light-accent dark:text-light-accent">
                     {{ work.title }}
                   </h3>
                   <!-- <p class="text-light-text dark:text-dark-text text-base mb-2">
-                    {{ work.description }}
-                  </p> -->
-                  <p class="text-light-text dark:text-dark-text text-sm">
+        {{ work.description }}
+      </p> -->
+                  <p class="text-light-text dark:text-dark-text text-sm sm:text-base">
                     <strong>Date:&nbsp;</strong> {{ work.time }}
                   </p>
-                  <p class="text-light-text dark:text-dark-text text-sm">
+                  <p class="text-light-text dark:text-dark-text text-sm sm:text-base">
                     <strong>Client:&nbsp;</strong> {{ work.client.name }}
                   </p>
-                  <p class="text-light-text dark:text-dark-text text-sm">
+                  <p class="text-light-text dark:text-dark-text text-sm sm:text-base">
                     <strong>Services:&nbsp;</strong> {{ work.client.services }}
                   </p>
-                  <p class="text-light-text dark:text-dark-text text-sm">
+                  <p class="text-light-text dark:text-dark-text text-sm sm:text-base">
                     <strong>Website:&nbsp;</strong>
                     <a :href="work.client.website" class="text-blue-500 hover:underline" target="_blank">
                       {{ work.client.website }}
@@ -175,7 +184,8 @@
               </div>
             </div>
 
-            <div class="flex justify-start mt-6">
+
+            <div class="flex justify-center lg:justify-start mt-6">
               <button @click="toggleShowMore"
                 class="bg-light-accent dark:bg-light-accent hover:bg-dark-sidebar text-white font-bold py-3 px-6 rounded transition-colors duration-300">
                 {{ buttonText }}
