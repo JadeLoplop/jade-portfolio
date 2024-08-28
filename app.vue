@@ -53,19 +53,33 @@
             </a>
           </div>
         </div>
-        <div class="h-24 sm:h-32 lg:h-48 mt-5 flex flex justify-center lg:justify-end">
+        <div class="h-24 sm:h-32 lg:h-48 mt-5 flex justify-center lg:justify-end">
 
-          <div class="flex items-center justify-center h-full space-x-4 sm:space-x-6">
-            <a href="https://github.com/JadeLoplop" target="_blank"
-              class="text-light-text dark:text-light-accent hover:text-gray-700 dark:hover:text-gray-400">
-              <i class="fab fa-github fa-2x"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/bryan-jade-loplop-8721a21a0" target="_blank"
-              class="text-light-text dark:text-light-accent hover:text-gray-700 dark:hover:text-gray-400">
-              <i class="fab fa-linkedin fa-2x"></i>
-            </a>
+          <div class="h-full">
+            <div class="flex items-center justify-center space-x-4 sm:space-x-6 mb-4">
+              <a href="https://github.com/JadeLoplop" target="_blank"
+                class="text-light-text dark:text-light-accent hover:text-gray-700 dark:hover:text-gray-400">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/bryan-jade-loplop-8721a21a0" target="_blank"
+                class="text-light-text dark:text-light-accent hover:text-gray-700 dark:hover:text-gray-400">
+                <i class="fab fa-linkedin fa-2x"></i>
+              </a>
+            </div>
+
+            <div class="flex items-center justify-end space-x-4 sm:space-x-6">
+              <div>
+                <span class="text-light-text dark:text-dark-text">Inpired by:</span><a href="https://html5up.net/strata" target="_blank"
+                  class="text-light-accent hover:text-gray-700 dark:hover:text-gray-400">
+                  Strata
+                </a>
+              </div>
+            </div>
+
           </div>
+
         </div>
+
       </div>
 
 
