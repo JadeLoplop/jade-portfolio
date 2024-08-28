@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
   app: {
     head: {
+      titleTemplate: '%s - Portfolio',
+      title: 'Bryan Jade Loplop',
       link: [
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap7' }
       ]
