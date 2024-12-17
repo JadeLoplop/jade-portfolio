@@ -1,4 +1,5 @@
 <template>
+  <SpeedInsights />
   <div class="min-h-screen w-full bg-light-background dark:bg-dark-background">
 
     <div class="flex flex-col lg:flex-row min-h-screen">
@@ -268,6 +269,7 @@ import { ref, computed, onMounted } from 'vue';
 import { SunIcon, MoonIcon } from '@heroicons/vue/24/outline';
 import ModalComponent from '~/components/ModalComponent.vue';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 
 // Reactive state for dark mode
 const darkMode = ref(false);
